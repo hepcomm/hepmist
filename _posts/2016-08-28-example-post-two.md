@@ -1,17 +1,9 @@
 ---
-title: History of the Alembic
-categories:
-- History
-feature_text: |
-  The History of the Alembic tool
+title: Muon g-2 Experiment's First Results
+feature_text: <h2 class="whitetext highlighted">Fermilab's Muon g-2 Experiment</h2>
+image: https://www.symmetrymagazine.org/sites/default/files/styles/2015_hero/public/images/standard/Muon-2017-s.jpg?itok=pNMUC217
 ---
 
-Dioscorides' ambix (described in his De materia medica) is a helmet-shaped lid for gathering condensed mercury. For Athenaeus (~ 225 C.E.) it is a bottle or flask. For later chemists it denotes various parts of crude distillation devices.
+Fermilab will announce the first results of Muon g-2 experiment on 4/7/21 at 10 AM (CT).
 
-<!-- more -->
-
-Alembic drawings appear in works of Cleopatra the Alchemist, Synesius, and Zosimos of Panopolis. There were alembics with two (dibikos) and three (tribikos) receivers.[4] According to Zosimos of Panopolis, the alembic was invented by Mary the Jewess.[5]
-
-The anbik is described by Ibn al-Awwam in his Kitab al-Filaha (Book of Agriculture), where he explains how rose-water is distilled. Amongst others, it is mentioned in the Mafatih al-Ulum (Key of Sciences) of Khwarizmi and the Kitab al-Asrar (Book of Secrets) of Al-Razi. Some illustrations occur in the Latin translations of works which are attributed to Geber.[2]
-
-_Originally from [Alembic - Wikipedia](https://en.wikipedia.org/wiki/Alembic)_
+ _[Read More](https://theory.fnal.gov/events/event/first-results-from-the-muon-g-2-experiment-at-fermilab/)_
