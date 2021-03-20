@@ -36,18 +36,18 @@ plugins:
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
-paginate_path: blog/page:num # jekyll-paginate > blog page
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-#twitter:
-#  username: yhnepi0 # jekyll-seo-tag > Owners twitter username
-author: Yu Hang Ng # jekyll-seo-tag > default author
-social: # jekyll-seo-tag > social overrides
-  name: Yu Hang Ng # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
+paginate_path: news/page:num # jekyll-paginate > blog page
+#jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+##twitter:
+##  username: yhnepi0 # jekyll-seo-tag > Owners twitter username
+ #author: Yu Hang Ng # jekyll-seo-tag > default author
+ #social: # jekyll-seo-tag > social overrides
+  #name: Yu Hang Ng # jekyll-seo-tag > real name
+  #links:  # jekyll-seo-tag > social aliases (sameAs)
     #- https://twitter.com/...
     #- https://www.facebook.com/...
     #- https://www.linkedin.com/in/...
-    - https://github.com/hepcomm/hepmist
+    #- https://github.com/hepcomm/hepmist
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
@@ -93,10 +93,10 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
-title: "Anomalies in High Energy Physics" # Site name or title, also used in jekyll-seo-tag
+title: "hepmist" # Site name or title, also used in jekyll-seo-tag
 #logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Hints for BSM physics" # Site description and default description, also used in jekyll-seo-tag
-url: "https://hepmist.github.io" # Site url, also used in jekyll-seo-tag
+description: "Anomalies in High Energy Physics" # Site description and default description, also used in jekyll-seo-tag
+url: "https://hepcomm.github.io/hepmist" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/hepcomm/hepmist"
 email: "yu-hang.ng@huskers.unl.edu"
