@@ -38,16 +38,16 @@ plugins:
 paginate: 2 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-twitter:
-  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
-author: DavidDarnes # jekyll-seo-tag > default author
+#twitter:
+#  username: yhnepi0 # jekyll-seo-tag > Owners twitter username
+author: Yu Hang Ng # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
+  name: Yu Hang Ng # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://github.com/daviddarnes
+    #- https://twitter.com/...
+    #- https://www.facebook.com/...
+    #- https://www.linkedin.com/in/...
+    - https://github.com/hepcomm/hepmist
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
@@ -58,17 +58,17 @@ sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+timezone: America/Chicago # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
   posts:
     title: Posts # Needed for Siteleaf
     output: true
-    description: "My thoughts and ideas" # The post list page content
+    description: " " # The post list page content
     feature_text: |
-      Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+      News
+    feature_image: "/assets/news.jpg"
 
 # 6. Jekyll collections settings
 defaults:
@@ -76,7 +76,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "/assets/default-social-image.png" # Default image for sharing
+      image: "/assets/mist_hope.jpeg" # Default image for sharing
   -
     scope:
       path: ""
@@ -92,14 +92,14 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-lang: en-GB # Set the site language
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
-url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
+lang: en-US # Set the site language
+title: "Anomalies in High Energy Physics" # Site name or title, also used in jekyll-seo-tag
+#logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+description: "Hints for BSM physics" # Site description and default description, also used in jekyll-seo-tag
+url: "https://hepmist.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/daviddarnes/alembic"
-email: "me@daviddarnes.com"
+repo: "https://github.com/hepcomm/hepmist"
+email: "yu-hang.ng@huskers.unl.edu"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # google_analytics: ''
 # google_analytics_anonymize_ip: ''
@@ -107,43 +107,38 @@ email: "me@daviddarnes.com"
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
 # 8. Site favicons & manifest icons
-favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: '/assets/logos/logo@16px.png'
-  32: '/assets/logos/logo@32px.png'
-  96: '/assets/logos/logo@96px.png'
-  120: '/assets/logos/logo@120px.png'
-  144: '/assets/logos/logo@144px.png'
-  180: '/assets/logos/logo@180px.png'
-  512: '/assets/logos/logo@512px.png'
-  1024: '/assets/logos/logo@1024px.png'
+#favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
+#  16: '/assets/logos/logo@16px.png'
+#  32: '/assets/logos/logo@32px.png'
+#  96: '/assets/logos/logo@96px.png'
+#  120: '/assets/logos/logo@120px.png'
+#  144: '/assets/logos/logo@144px.png'
+#  180: '/assets/logos/logo@180px.png'
+#  512: '/assets/logos/logo@512px.png'
+#  1024: '/assets/logos/logo@1024px.png'
 
 # 9. Site navigation
 navigation_header:
 - title: Home
   url: /
-- title: Elements
-  url: /elements/
-- title: Blog
-  url: /blog/
-- title: Categories
-  url: /categories/
+- title: News
+  url: /news/
 - title: Search
   url: /search/
-- title: Fork Alembic
-  url: https://github.com/daviddarnes/alembic
 
+#site credits
 navigation_footer:
-- title: Created by David Darnes
-  url: https://darn.es
+- title: Adopted Alembic Theme
+  url: https://alembic.darn.es/
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
-  RSS: /feed.xml
+  #Twitter: https://twitter.com/yhnepi0
+  #LinkedIn: https://www.linkedin.com/in/...
+  GitHub: https://github.com/hepcomm/hepmist
+  #link: https://...
+  #RSS: /feed.xml
 
-sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
-  Twitter: "#0d94e7"
-  facebook: "#3B5998"
-  Email: true
+#sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
+#  Twitter: "#0d94e7"
+#  facebook: "#3B5998"
+#  Email: true
