@@ -57,18 +57,18 @@ paginate_path: news/page:num # jekyll-paginate > blog page
 sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+#excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: America/Chicago # Timezone for blog posts and alike
 
 # 5. Collections
-collections:
-  posts:
-    title: Posts # Needed for Siteleaf
-    output: true
-    description: " " # The post list page content
-    feature_text: |
-      News
-    feature_image: "/assets/news.jpg"
+#collections:
+#  posts:
+#    title: Posts # Needed for Siteleaf
+#    output: true
+#    description: "latest" # The post list page content
+#    feature_text: |
+#      News
+#    feature_image: "/assets/news.jpg"
 
 # 6. Jekyll collections settings
 defaults:
@@ -95,16 +95,21 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
 title: "hepmist" # Site name or title, also used in jekyll-seo-tag
 #logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Anomalies in High Energy Physics" # Site description and default description, also used in jekyll-seo-tag
-url: "https://hepcomm.github.io/hepmist" # Site url, also used in jekyll-seo-tag
-baseurl: ""
-repo: "https://github.com/hepcomm/hepmist"
-email: "yu-hang.ng@huskers.unl.edu"
+#description: "Anomalies in High Energy Physics" # Site description and default description, also used in jekyll-seo-tag
+#url: "https://hepcomm.github.io/hepmist" # Site url, also used in jekyll-seo-tag
+#baseurl: ""
+#repo: "https://github.com/hepcomm/hepmist"
+#email: "yu-hang.ng@huskers.unl.edu"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # google_analytics: ''
 # google_analytics_anonymize_ip: ''
 # service_worker: false # Will turn off the service worker if set to false
-css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+#css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+
+# default markdown processor and highlighter
+markdown: kramdown
+highlighter: rouge
+error_mode: strict
 
 # 8. Site favicons & manifest icons
 #favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
@@ -131,10 +136,10 @@ navigation_footer:
 - title: Adopted Alembic Theme
   url: https://alembic.darn.es/
 
-social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+#social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   #Twitter: https://twitter.com/yhnepi0
   #LinkedIn: https://www.linkedin.com/in/...
-  GitHub: https://github.com/hepcomm/hepmist
+  #GitHub: https://github.com/hepcomm/hepmist
   #link: https://...
   #RSS: /feed.xml
 
