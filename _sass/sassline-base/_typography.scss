@@ -65,20 +65,32 @@ a {
     font-style: normal;
     font-weight: map-get($headingtype, bold);
   }
+  
+  //white text
+  .whitetext{
+    color: $white;
+    text-align: center;
+  }
+  
+  //text highlight
+  .highlighted {
+    background-color: $grey;
+    padding: 0px;
+  }
 
   // Heading level 1.
   h1, .alpha {
-    @include sassline($fontsize: alpha, $font: $headingtype, $lineheight: 3, $below: 1, $breakpoint: all);
+    @include sassline($fontsize: alpha, $font: $headingtype, $lineheight: 3, $below: -0.5, $breakpoint: all);
   }
 
   // Heading level 2.
   h2, .beta {
-    @include sassline(beta, $headingtype, 3, 1, all);
+    @include sassline(beta, $headingtype, 3, 0, all);
   }
 
   // Heading level 3.
   h3, .gamma {
-    @include sassline(gamma, $headingtype, 3, 1, all);
+    @include sassline(gamma, $headingtype, 3, -0.5, all);
   }
 
   // Heading level 4.

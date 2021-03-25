@@ -12,6 +12,7 @@ $hoverColour: #008000 !default;
 $focusColour: #fa407a !default;
 $captionColour: #a8adac !default;
 $white: #ffffff !default;
+$grey: rgba(0,0,0,0.5);
 
 // Typography
 $bodytype: (
@@ -23,10 +24,10 @@ $bodytype: (
 ) !default;
 
 $headingtype: (
-  font-family: '"Merriweather", serif',
+  font-family: '"Mali", serif',
   regular: 400,
   bold: 700,
-  cap-height: 0.75
+  cap-height: 0.85
 ) !default;
 
 $monospacetype: (
@@ -37,3 +38,4 @@ $monospacetype: (
 
 // Font import, if you're using a non-standard web font
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+@import url("https://fonts.googleapis.com/css?family=Mali:400,700");
