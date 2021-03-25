@@ -97,7 +97,7 @@ lang: en-US # Set the site language
 title: "hepmist" # Site name or title, also used in jekyll-seo-tag
 #logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 #description: "Anomalies in High Energy Physics" # Site description and default description, also used in jekyll-seo-tag
-#url: "https://hepcomm.github.io/hepmist" # Site url, also used in jekyll-seo-tag
+url: "https://hepcomm.github.io/hepmist" # Site url, also used in jekyll-seo-tag
 #baseurl: ""
 #repo: "https://github.com/hepcomm/hepmist"
 #email: "yu-hang.ng@huskers.unl.edu"
