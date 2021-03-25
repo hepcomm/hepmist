@@ -99,7 +99,7 @@ title: "hepmist" # Site name or title, also used in jekyll-seo-tag
 #description: "Anomalies in High Energy Physics" # Site description and default description, also used in jekyll-seo-tag
 url: "https://hepcomm.github.io" # Site url, also used in jekyll-seo-tag
 #baseurl: ""
-#repo: "https://github.com/hepcomm/hepmist"
+repo: "https://github.com/hepcomm/hepmist"
 #email: "yu-hang.ng@huskers.unl.edu"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # google_analytics: ''
