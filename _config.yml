@@ -96,7 +96,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
 title: "hepmist" # Site name or title, also used in jekyll-seo-tag
 #logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-#description: "Anomalies in High Energy Physics" # Site description and default description, also used in jekyll-seo-tag
+description: "Your inputs and suggestions are welcome! Please feel free to make a pull request to add/edit the content of this website or start a discussion." # Site description and default description, also used in jekyll-seo-tag
 url: "https://hepcomm.github.io" # Site url, also used in jekyll-seo-tag
 #baseurl: ""
 repo: "https://github.com/hepcomm/hepmist"
@@ -128,10 +128,10 @@ navigation_footer:
 - title: Adopted Alembic Theme
   url: https://alembic.darn.es/
 
-#social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   #Twitter: https://twitter.com/yhnepi0
   #LinkedIn: https://www.linkedin.com/in/...
-  #GitHub: https://github.com/hepcomm/hepmist
+  GitHub: https://github.com/hepcomm/hepmist
   #link: https://...
   #RSS: /feed.xml
 
