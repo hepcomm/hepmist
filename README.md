@@ -4,8 +4,8 @@
   - [The table of anomalies](#the-table-of-anomalies)
   - [Possible solutions](#possible-solutions)
 
-## About
-...
+## About hepmist
+**hepmist** aims to keep a comprehensive, up-to-date list of anomalies in high energy physics. If you notice some anomalies/proposed solutions/references are missing or any incorrect information, please don't hesitate to let us know. The step-by-step guide below will show you how to edit the table of anomalies and the pages for proposed explanations. 
 
 ## How to edit ?
 
