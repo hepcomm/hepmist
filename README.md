@@ -1,13 +1,13 @@
 ## Contents
 - [About](#about)
-- [How to edit?](#how-to)
-  - [The table of anomalies](#table)
-  - [Possible solutions](#sols)
+- [How to edit?](#how-to-edit-)
+  - [The table of anomalies](#the-table-of-anomalies)
+  - [Possible solutions](#possible-solutions)
 
 ## About
 ...
 
-## How to edit?
+## How to edit ?
 
 ### The table of anomalies
 
