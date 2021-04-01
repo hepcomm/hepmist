@@ -121,6 +121,8 @@ navigation_header:
 - title: News
   url: /news/
 - title: About This Site
+  url: /about-this-site/
+- title: Search
   url: /search/
 
 #site credits
