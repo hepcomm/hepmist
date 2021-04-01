@@ -6,4 +6,4 @@ feature_image: https://hepcomm.github.io/hepmist/assets/false_alarm.jpg
 
 {% include Lessons-past.html %}
 
-#### [Download](https://docs.google.com/document/d/14TKZuoNbSRBocf3bN9bW4QNGeJw2X-mr9VvowwfLCYY/export?format=html)
+#### [Download](https://raw.githubusercontent.com/hepcomm/hepmist/main/_includes/Lessons-past.html)
