@@ -3,4 +3,4 @@ feature_text: <h1 class="whitetext"> Anomalies  <br/> in <br/> High Energy Physi
 feature_image: https://hepcomm.github.io/hepmist/assets/mist_hope.jpeg
 ---
 
-<embed src="https://hepcomm.github.io/hepmist/solutions/muon-g-2/muon-g-2.pdf" type="application/pdf" width="1000" height="1200" />
+<embed src="https://hepcomm.github.io/hepmist/solutions/muon-g-2/muon-g-2.pdf" type="application/pdf" width="900" height="1200" />
