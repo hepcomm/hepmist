@@ -29,7 +29,8 @@ _This guide assumes the readers know how to create pull requests. If you do not 
 _Use this method if you prefer to upload a pdf document_
 1. Go to the `/solutions` directory. 
 2. Create a folder with appropriate file name (e.g.muon-g-2). Upload your [anomaly].pdf to this folder. 
-_(If you generate your pdf document by using LaTeX codes, please upload the whole folder that contains all the .tex, .bib, .pdf files. E.g. see [`/solutions/muon-g-2/`](https://github.com/hepcomm/hepmist/tree/main/solutions/muon-g-2))_
+_(If you generate your pdf document by using LaTeX codes, please upload the whole folder that contains all the .tex, .bib, .pdf files. E.g. see [`/solutions/muon-g-2/`](https://github.com/hepcomm/hepmist/tree/main/solutions/muon-g-2).)_
+3. Modify the corresponding hyperlink in the [`ListofAnomalies.html`](https://github.com/hepcomm/hepmist/blob/main/_includes/ListofAnomalies.html) file.
 
 ### The _False Alarms_ page
 
