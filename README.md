@@ -12,8 +12,8 @@
 This website aims to keep a comprehensive, up-to-date list of anomalies in high energy physics. If you notice some anomalies/proposed solutions/references are missing or any incorrect information, please don't hesitate to create a pull request to propose changes. The step-by-step guide below will show you how to edit the table of anomalies and the pages for proposed explanations. Also, please feel free to utilize GitHub Discussions to ask a questions or share your opinions about the anomalies and the website design.
 
 ## How to edit ?
-_This guide assumes the readers know how to create pull requests. If you do not have any experience, please read [this tutorial](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/github-collaboration/how-to-submit-pull-requests-on-github/)(or any similar tutorial)._
-
+_This guide assumes the readers know how to create pull requests. If you do not have any experience, please read [this tutorial](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/github-collaboration/how-to-submit-pull-requests-on-github/) (or any similar tutorial)._
+ 
 ### The table of anomalies
 
 1. Go to the `/_includes` directory. Download the [`ListofAnomalies.html`](https://github.com/hepcomm/hepmist/blob/main/_includes/ListofAnomalies.html) file.
