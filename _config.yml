@@ -112,6 +112,10 @@ markdown: kramdown
 highlighter: rouge
 error_mode: strict
 
+#verification
+webmaster_verifications:
+  google: ODOHb4sGXnPiiYopiB3t1QjqJ8GxQDrzXevx6J7irFQ
+
 # 9. Site navigation
 navigation_header:
 - title: Home
