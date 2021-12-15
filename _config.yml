@@ -94,9 +94,9 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
-title: "hepmist" # Site name or title, also used in jekyll-seo-tag
+title: "Anomalies in High Energy Physics" # Site name or title, also used in jekyll-seo-tag
 #logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Your inputs and suggestions are welcome! Please feel free to make a pull request to add/edit the content of this website or start a discussion." # Site description and default description, also used in jekyll-seo-tag
+description: "Table of anomalies in particle physics, astrophysics, and cosmology." # Site description and default description, also used in jekyll-seo-tag
 url: "https://hepcomm.github.io" # Site url, also used in jekyll-seo-tag
 #baseurl: ""
 repo: "https://github.com/hepcomm/hepmist"
